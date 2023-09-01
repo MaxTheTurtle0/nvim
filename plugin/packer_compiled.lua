@@ -143,6 +143,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/maxtheturtle0/.local/share/nvim/site/pack/packer/start/vim-be-good",
     url = "https://github.com/ThePrimeagen/vim-be-good"
+  },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "/home/maxtheturtle0/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
   }
 }
 

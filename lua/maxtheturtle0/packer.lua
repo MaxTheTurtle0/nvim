@@ -18,6 +18,7 @@ return packer.startup(function(use) -- Packer can manage itself
     use 'ThePrimeagen/vim-be-good' 
     use 'folke/tokyonight.nvim' 
     use 'github/copilot.vim'
+    use 'christoomey/vim-tmux-navigator'
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.2',
         -- or                            , branch = '0.1.x',
