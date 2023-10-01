@@ -1,4 +1,5 @@
 vim.g.mapleader = " "
+vim.g.copilot_filetypes = {markdown = true}
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 vim.keymap.set("v", "K", ":m '>-2<CR>gv=gv")
