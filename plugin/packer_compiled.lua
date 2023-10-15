@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/home/maxtheturtle0/.local/share/nvim/site/pack/packer/start/copilot.vim",
     url = "https://github.com/github/copilot.vim"
   },
+  harpoon = {
+    loaded = true,
+    path = "/home/maxtheturtle0/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/theprimeagen/harpoon"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/maxtheturtle0/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
