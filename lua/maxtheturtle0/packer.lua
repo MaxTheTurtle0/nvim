@@ -51,4 +51,5 @@ return packer.startup(function(use) -- Packer can manage itself
         }
     }
     use 'theprimeagen/harpoon'
+    use 'mbbill/undotree'
 end)
