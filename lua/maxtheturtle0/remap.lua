@@ -2,6 +2,17 @@ vim.g.mapleader = " "
 vim.g.copilot_filetypes = {markdown = true}
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
+local M = {}
+
+M.general = {
+    n = {
+        ["<C-h>"] = { "<cmd> TmuxNavigateLeft<CR>", "window left" },
+        ["<C-l>"] = { "<cmd> TmuxNavigateRight<CR>", "window right" },
+        ["<C-j>"] = { "<cmd> TmuxNavigateDown<CR>", "window down" },
+        ["<C-k>"] = { "<cmd> TmuxNavigateUp<CR>", "window up" },
+    }
+}
+
 vim.keymap.set("v", "K", ":m '>-2<CR>gv=gv")
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
