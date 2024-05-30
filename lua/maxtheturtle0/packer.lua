@@ -50,6 +50,7 @@ return packer.startup(function(use) -- Packer can manage itself
             {'L3MON4D3/LuaSnip'},     -- Required 
         }
     }
+    use "supermaven-inc/supermaven-nvim"
     use 'theprimeagen/harpoon'
     use 'mbbill/undotree'
 end)
