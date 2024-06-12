@@ -4,6 +4,8 @@ lsp.preset("recommended")
 
 lsp.ensure_installed({
     "rust_analyzer",
+    "tsserver",
+    "gopls",
 })
 
 local cmp = require('cmp')
@@ -15,8 +17,14 @@ local cmp_mappings = lsp.defaults.cmp_mappings({
     ['<C-Space>'] = cmp.mapping.complete()
 })
 
-cmp_mappings['<Tab>'] = nil
-cmp_mappings['<S-Tab>'] = nil
+-- cmp_mappings['<Tab>'] = nil
+-- cmp_mappings['<S-Tab>'] = nil
+
+cmp.setup {
+  sources = {
+    { name = "supermaven" },
+  }
+}
 
 lsp.setup_nvim_cmp({
     mapping = cmp_mappings
