@@ -22,6 +22,7 @@ cmp_mappings['<S-Tab>'] = nil
 
 cmp.setup {
   sources = {
+    { name = "nvim_lsp" },
     { name = "supermaven" },
   }
 }
